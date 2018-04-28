@@ -23,8 +23,6 @@ def get_one_page(url):
     except RequestException:
         return None
 
-def 
-
 def main():
     url = "http://maoyan.com/board"
     print(get_one_page(url))
